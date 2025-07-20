@@ -8,7 +8,7 @@ const Users: React.FC = ({ posts }) => {
       <Header />
 
       <div className="grid grid-cols-3 gap-2 ">
-        {posts?.map(
+        {posts.map(
           (
             {
               name,
