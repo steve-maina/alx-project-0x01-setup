@@ -1,7 +1,7 @@
 import UserCard from "@/components/common/UserCard";
 import UserModal from "@/components/common/UserModal";
 import Header from "@/components/layout/Header";
-import { UserData, UserProps } from "@/interfaces";
+import { UserProps } from "@/interfaces";
 import { useState } from "react";
 
 const Users: React.FC = ({ posts }) => {
